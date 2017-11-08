@@ -1,0 +1,6 @@
+framework module PickerPopupDialog {
+  umbrella header "PickerPopupDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

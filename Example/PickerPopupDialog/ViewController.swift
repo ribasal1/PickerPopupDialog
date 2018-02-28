@@ -3,21 +3,36 @@
 //  PickerPopupDialog
 //
 //  Created by ribasal1 on 11/08/2017.
-//  Copyright (c) 2017 ribasal1. All rights reserved.
-//
+//  
 
 import UIKit
+import PickerPopupDialog
+
 
 class ViewController: UIViewController {
+    
+    /*typealias arrayAny = (Any, String)*/
 
+    let pickerView = PickerPopupDialog.init()
+    let arrayDataSource : [(Any, String)] = [(1, "First item"),(2, "Second item")]
+    
+    @IBOutlet weak var textLabel: UILabel!
+    
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        textLabel.text = "No text selected"
+        pickerView.setDataSource(arrayDataSource)
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func buttonClick(_ sender: Any) {
+        pickerView.showDialog("My Title", doneButtonTitle: "Ok", cancelButtonTitle: "cancel") { (result) -> Void in
+            
+            self.textLabel.text = "Selected value:\n\n Text:\(result.1)\n Value:\(result.0)"
+            
+            //close window
+            self.dismiss(animated: true, completion: nil)
+        }
     }
 
 }

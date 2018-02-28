@@ -1,22 +1,22 @@
 {
   "name": "PickerPopupDialog",
   "version": "0.1.0",
-  "summary": "A short description of PickerPopupDialog.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Display a Picker inside a Popup Dialog. It also gives you the ability to separate displayed text from values",
+  "description": "Display a Picker inside a Popup Dialog. It also gives you the ability to separate displayed text from values",
   "homepage": "https://github.com/ribasal1/PickerPopupDialog",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ribasal1": "alberto.ribas@novartis.com"
+    "ribasal1": "github@linkmedia.ch"
   },
   "source": {
     "git": "https://github.com/ribasal1/PickerPopupDialog.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
   "source_files": "PickerPopupDialog/Classes/**/*"
 }

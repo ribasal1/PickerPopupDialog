@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Display a Picker inside a Popup Dialog. It also gives you the ability to separate displayed text from values
+  PickerPopupDialog is a a popup iOS picker control written in Swift 4. It lets you input any type of data in the format [(Any, String)].
                        DESC
 
   s.homepage         = 'https://github.com/ribasal1/PickerPopupDialog'
@@ -31,6 +31,8 @@ Display a Picker inside a Popup Dialog. It also gives you the ability to separat
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'PickerPopupDialog/Classes/**/*'
+  
+  s.swift_version = '4.0'
   
   # s.resource_bundles = {
   #   'PickerPopupDialog' => ['PickerPopupDialog/Assets/*.png']

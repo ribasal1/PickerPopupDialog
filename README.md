@@ -15,7 +15,6 @@ PickerPopupDialog is a a popup iOS picker control written in Swift 4. It lets yo
 ## Table of Contents
 
 * [Example](#example)
-* [Minimum Requirements](#minimum-requirements)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Author](#author)
@@ -67,6 +66,35 @@ into your Xcode project (Linked Frameworks and Libraries in `Targets`).
 
 1. Copy `PickerPopupDialog.swift` into your project
 2. That's it
+
+## Usage
+
+Import if you are using Cocoapods
+
+```ruby
+import PickerPopupDialog
+```
+
+Set the data source, in viewDidLoad for example. It must be of type [(Any, String)]
+```ruby
+let myDataSource : [(Any, String)] = [(1, "First item"),(2, "Second item")]
+pickerView.setDataSource(myDataSource)
+```
+Show the picker and use the selected value
+```ruby
+pickerView.showDialog("My Title", doneButtonTitle: "Ok", cancelButtonTitle: "cancel") { (result) -> Void in
+    //do something with the selected value
+    //Value = result.0
+    //Text = result.1
+    
+    //close window
+    self.dismiss(animated: true, completion: nil)
+}
+```
+
+
+
+
 
 ## Author
 

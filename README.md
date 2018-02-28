@@ -9,7 +9,7 @@
 
 PickerPopupDialog is a a popup iOS picker control written in Swift 4. It lets you input any type of data in the format [(Any, String)].
 
-![Sample Video](https://i.imgflip.com/25g9lq.gif)
+![Sample Video](https://media.giphy.com/media/ZvHpCQGfVNECnnnrXh/giphy.gif)
 
 
 ## Table of Contents

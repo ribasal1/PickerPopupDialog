@@ -29,16 +29,16 @@
 /* Begin PBXFileReference section */
 		0F1B45C194AD53A381D62234BA88998F /* Pods-PickerPopupDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickerPopupDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		134F593242E4792D0CD101A042D9A940 /* PickerPopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerPopupDialog-prefix.pch"; sourceTree = "<group>"; };
-		1A0D375D5FDAEF554FDE5351718F67AE /* Pods_PickerPopupDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PickerPopupDialog_Example.framework; path = "Pods-PickerPopupDialog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0D375D5FDAEF554FDE5351718F67AE /* Pods_PickerPopupDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerPopupDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E55D3C0B35218E672DC635E27E54E6F /* PickerPopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerPopupDialog-umbrella.h"; sourceTree = "<group>"; };
 		28B1FBE446157FE53894ABEE6B51DB00 /* Pods-PickerPopupDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickerPopupDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		48FD41E7E97FC437E11DD83AB291D43F /* Pods-PickerPopupDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickerPopupDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4C4F250C54CF33D9257E69778613EB8B /* PickerPopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PickerPopupDialog.modulemap; sourceTree = "<group>"; };
 		4E066DAE931689FB20BACC8EB2199BF4 /* Pods-PickerPopupDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickerPopupDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		770902F0C9305EC3A39C4B510A7E1606 /* PickerPopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PickerPopupDialog.framework; path = PickerPopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		770902F0C9305EC3A39C4B510A7E1606 /* PickerPopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickerPopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF6BEE12C1FE4E0CC20ACE33FA8A0CB /* Pods-PickerPopupDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickerPopupDialog_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94FA9D7342364482D62AFF28E1DFDBE1 /* PickerPopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerPopupDialog.swift; path = PickerPopupDialog/Classes/PickerPopupDialog.swift; sourceTree = "<group>"; };
 		A91C662DF63E1FD03B771108DBF1B99D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB26D592B23B8B83A0B57FFE0104AFFD /* Pods-PickerPopupDialog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PickerPopupDialog_Example.modulemap"; sourceTree = "<group>"; };
@@ -87,7 +87,6 @@
 				94FA9D7342364482D62AFF28E1DFDBE1 /* PickerPopupDialog.swift */,
 				A82AE0BDA7DCD10D9C0A88C9AAF9B39D /* Support Files */,
 			);
-			name = PickerPopupDialog;
 			path = PickerPopupDialog;
 			sourceTree = "<group>";
 		};

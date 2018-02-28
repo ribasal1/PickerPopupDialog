@@ -1,11 +1,4 @@
 use_frameworks!
-
 target 'PickerPopupDialog_Example' do
-  pod 'PickerPopupDialog', :path => '../'
-
-  target 'PickerPopupDialog_Tests' do
-    inherit! :search_paths
-
-    
-  end
+ pod "PickerPopupDialog"
 end

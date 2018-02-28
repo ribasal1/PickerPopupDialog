@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F3A7F01F3D34B18D176078A27F7C375 /* PickerPopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB96B20E26454889F96A3C6AB860AA /* PickerPopupDialog-dummy.m */; };
-		2D6348E5B0442E7D5B02852434B4C201 /* Pods-PickerPopupDialog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 722C6355AFE25E7E098876C6A6DD136C /* Pods-PickerPopupDialog_Example-dummy.m */; };
-		5BBA2F2AECBAC4E2F5DE2F8179AE2975 /* Pods-PickerPopupDialog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34893C1141233265612D8D173E71D00D /* Pods-PickerPopupDialog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75813C263404D9A7AFA91638B29DAC6B /* PickerPopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAEE7C6BEDF050F729658FC8930BCB8 /* PickerPopupDialog.swift */; };
-		B6EE74A07C21876B76DC691B57DF3B1E /* Pods-PickerPopupDialog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB1EB985F7707632A83EE736F10C8EB1 /* Pods-PickerPopupDialog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDBB6AFBF4D22537DD6FF43A1CEA5A2F /* PickerPopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5681B22BCFCCF36D981D9576FA2B7487 /* PickerPopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E691E4FF2322917E94269A7875733F56 /* Pods-PickerPopupDialog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF49EFBDC4E09EA1AA96B7B3EAE218 /* Pods-PickerPopupDialog_Tests-dummy.m */; };
+		0F3A7F01F3D34B18D176078A27F7C375 /* PickerPopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F905EC39B8B2B1073B154C48E04E46 /* PickerPopupDialog-dummy.m */; };
+		2D6348E5B0442E7D5B02852434B4C201 /* Pods-PickerPopupDialog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1288C4FD3CC20FD7580330186A26223 /* Pods-PickerPopupDialog_Example-dummy.m */; };
+		67159FF4D849BC8675245B62D1DBAC55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		75813C263404D9A7AFA91638B29DAC6B /* PickerPopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FA9D7342364482D62AFF28E1DFDBE1 /* PickerPopupDialog.swift */; };
+		A2A5CB0B55A14CD01270298E0675BD57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B6EE74A07C21876B76DC691B57DF3B1E /* Pods-PickerPopupDialog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF6BEE12C1FE4E0CC20ACE33FA8A0CB /* Pods-PickerPopupDialog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDBB6AFBF4D22537DD6FF43A1CEA5A2F /* PickerPopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E55D3C0B35218E672DC635E27E54E6F /* PickerPopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,40 +27,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DF1187BDEB864ECF019A67A88EE47C9 /* Pods_PickerPopupDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerPopupDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		178D0FAB89D204B391EE785DCEE480E8 /* Pods-PickerPopupDialog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickerPopupDialog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1F45F43095B05C5E101A4811A6026054 /* PickerPopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PickerPopupDialog.xcconfig; sourceTree = "<group>"; };
-		218E175888AF8BBA0F294625E453D994 /* PickerPopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PickerPopupDialog.modulemap; sourceTree = "<group>"; };
-		249937AD7693438D762DB9D970F7B3E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2A48B478EA33AE7E06ED7DA00CE7C891 /* PickerPopupDialog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PickerPopupDialog.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		34893C1141233265612D8D173E71D00D /* Pods-PickerPopupDialog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickerPopupDialog_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4CDF49EFBDC4E09EA1AA96B7B3EAE218 /* Pods-PickerPopupDialog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PickerPopupDialog_Tests-dummy.m"; sourceTree = "<group>"; };
-		5681B22BCFCCF36D981D9576FA2B7487 /* PickerPopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerPopupDialog-umbrella.h"; sourceTree = "<group>"; };
-		57C1F159452CF66D538DFD524E002DA4 /* Pods-PickerPopupDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickerPopupDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5DCE630C5C7621055E6EF20FFC2E82E0 /* Pods-PickerPopupDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickerPopupDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63761F90AD643D78B2ECF9F6AA93EE14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70CC1AC1691B08B66E9FB8049B7F75E4 /* Pods-PickerPopupDialog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickerPopupDialog_Example-resources.sh"; sourceTree = "<group>"; };
-		722C6355AFE25E7E098876C6A6DD136C /* Pods-PickerPopupDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PickerPopupDialog_Example-dummy.m"; sourceTree = "<group>"; };
-		73E8695AFCD2F81EA4135B22B1D99276 /* Pods-PickerPopupDialog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PickerPopupDialog_Example.modulemap"; sourceTree = "<group>"; };
-		7CFB96B20E26454889F96A3C6AB860AA /* PickerPopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PickerPopupDialog-dummy.m"; sourceTree = "<group>"; };
-		7E2088AE32FACF6E984C2C38CFC35021 /* Pods-PickerPopupDialog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickerPopupDialog_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7FDD633C27F80CAA8AAD4EC941259060 /* Pods-PickerPopupDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickerPopupDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8208284DDEE28E5A546288B7130FF4D6 /* Pods-PickerPopupDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickerPopupDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8E01E773B0DAC6E94607D392CCBE9E44 /* Pods-PickerPopupDialog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PickerPopupDialog_Tests.modulemap"; sourceTree = "<group>"; };
-		90A247147EC0DAB1276A4DDBF1EFB7BC /* Pods-PickerPopupDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickerPopupDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA2F424AE488112DA1E88313B0D8091A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AED9C3D4DC37C484846ABA6206851D80 /* Pods-PickerPopupDialog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickerPopupDialog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BE8286B706DE24095E3F6EED295CDD05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C37AB17825073596738A9A16A2A7D12F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C6D2485752B8E110CECDEAD43655D318 /* Pods-PickerPopupDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickerPopupDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CF66D5F60C28F4ACCCD6FA72A5CEC0E6 /* Pods-PickerPopupDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickerPopupDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D2CF2F0FA92FD69E516B3F3FDC15C7B4 /* PickerPopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerPopupDialog-prefix.pch"; sourceTree = "<group>"; };
-		DA4C49A8264564567EF74CBB5424917B /* Pods-PickerPopupDialog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickerPopupDialog_Tests-resources.sh"; sourceTree = "<group>"; };
-		EB3B298EF018F4EAEFBA9D161621E324 /* PickerPopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PickerPopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECAEE7C6BEDF050F729658FC8930BCB8 /* PickerPopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerPopupDialog.swift; path = PickerPopupDialog/Classes/PickerPopupDialog.swift; sourceTree = "<group>"; };
-		FB1EB985F7707632A83EE736F10C8EB1 /* Pods-PickerPopupDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickerPopupDialog_Example-umbrella.h"; sourceTree = "<group>"; };
-		FBE589E740ED9E15D6C315C32889FB56 /* Pods_PickerPopupDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerPopupDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1B45C194AD53A381D62234BA88998F /* Pods-PickerPopupDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PickerPopupDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		134F593242E4792D0CD101A042D9A940 /* PickerPopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerPopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		1A0D375D5FDAEF554FDE5351718F67AE /* Pods_PickerPopupDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PickerPopupDialog_Example.framework; path = "Pods-PickerPopupDialog_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E55D3C0B35218E672DC635E27E54E6F /* PickerPopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PickerPopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		28B1FBE446157FE53894ABEE6B51DB00 /* Pods-PickerPopupDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PickerPopupDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		48FD41E7E97FC437E11DD83AB291D43F /* Pods-PickerPopupDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickerPopupDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4C4F250C54CF33D9257E69778613EB8B /* PickerPopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PickerPopupDialog.modulemap; sourceTree = "<group>"; };
+		4E066DAE931689FB20BACC8EB2199BF4 /* Pods-PickerPopupDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickerPopupDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		770902F0C9305EC3A39C4B510A7E1606 /* PickerPopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PickerPopupDialog.framework; path = PickerPopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF6BEE12C1FE4E0CC20ACE33FA8A0CB /* Pods-PickerPopupDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PickerPopupDialog_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94FA9D7342364482D62AFF28E1DFDBE1 /* PickerPopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerPopupDialog.swift; path = PickerPopupDialog/Classes/PickerPopupDialog.swift; sourceTree = "<group>"; };
+		A91C662DF63E1FD03B771108DBF1B99D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB26D592B23B8B83A0B57FFE0104AFFD /* Pods-PickerPopupDialog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PickerPopupDialog_Example.modulemap"; sourceTree = "<group>"; };
+		BFC246149D5E5793B3FB20C84103CA09 /* Pods-PickerPopupDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PickerPopupDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C1288C4FD3CC20FD7580330186A26223 /* Pods-PickerPopupDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PickerPopupDialog_Example-dummy.m"; sourceTree = "<group>"; };
+		E06E16ED9D245609DACECCC002AE5977 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3F905EC39B8B2B1073B154C48E04E46 /* PickerPopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PickerPopupDialog-dummy.m"; sourceTree = "<group>"; };
+		E8B472ECA1E3FC732D84E0AB3BF75ADF /* PickerPopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PickerPopupDialog.xcconfig; sourceTree = "<group>"; };
+		EADC20BDFF532C4DC1EF792403D269C7 /* Pods-PickerPopupDialog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PickerPopupDialog_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67159FF4D849BC8675245B62D1DBAC55 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,126 +63,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FEE066D8F34E102B8DB33642F10C513E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A2A5CB0B55A14CD01270298E0675BD57 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09B9CBEA7EB8FAE1905E1EC753EB17F8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5E5078818F955EA6ABDA833A3F7157D7 /* PickerPopupDialog */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3024F341A48F3A8FAA177BE286239620 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EB3B298EF018F4EAEFBA9D161621E324 /* PickerPopupDialog.framework */,
-				FBE589E740ED9E15D6C315C32889FB56 /* Pods_PickerPopupDialog_Example.framework */,
-				0DF1187BDEB864ECF019A67A88EE47C9 /* Pods_PickerPopupDialog_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		352F1F18EF3E0F83EEEAD705B5F11312 /* Pods-PickerPopupDialog_Example */ = {
-			isa = PBXGroup;
-			children = (
-				AA2F424AE488112DA1E88313B0D8091A /* Info.plist */,
-				73E8695AFCD2F81EA4135B22B1D99276 /* Pods-PickerPopupDialog_Example.modulemap */,
-				5DCE630C5C7621055E6EF20FFC2E82E0 /* Pods-PickerPopupDialog_Example-acknowledgements.markdown */,
-				C6D2485752B8E110CECDEAD43655D318 /* Pods-PickerPopupDialog_Example-acknowledgements.plist */,
-				722C6355AFE25E7E098876C6A6DD136C /* Pods-PickerPopupDialog_Example-dummy.m */,
-				7FDD633C27F80CAA8AAD4EC941259060 /* Pods-PickerPopupDialog_Example-frameworks.sh */,
-				70CC1AC1691B08B66E9FB8049B7F75E4 /* Pods-PickerPopupDialog_Example-resources.sh */,
-				FB1EB985F7707632A83EE736F10C8EB1 /* Pods-PickerPopupDialog_Example-umbrella.h */,
-				8208284DDEE28E5A546288B7130FF4D6 /* Pods-PickerPopupDialog_Example.debug.xcconfig */,
-				90A247147EC0DAB1276A4DDBF1EFB7BC /* Pods-PickerPopupDialog_Example.release.xcconfig */,
-			);
-			name = "Pods-PickerPopupDialog_Example";
-			path = "Target Support Files/Pods-PickerPopupDialog_Example";
-			sourceTree = "<group>";
-		};
-		5A6B24ABB676C2F4228A2BC8EC50427F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				63761F90AD643D78B2ECF9F6AA93EE14 /* Info.plist */,
-				218E175888AF8BBA0F294625E453D994 /* PickerPopupDialog.modulemap */,
-				1F45F43095B05C5E101A4811A6026054 /* PickerPopupDialog.xcconfig */,
-				7CFB96B20E26454889F96A3C6AB860AA /* PickerPopupDialog-dummy.m */,
-				D2CF2F0FA92FD69E516B3F3FDC15C7B4 /* PickerPopupDialog-prefix.pch */,
-				5681B22BCFCCF36D981D9576FA2B7487 /* PickerPopupDialog-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PickerPopupDialog";
-			sourceTree = "<group>";
-		};
-		5E5078818F955EA6ABDA833A3F7157D7 /* PickerPopupDialog */ = {
-			isa = PBXGroup;
-			children = (
-				ECAEE7C6BEDF050F729658FC8930BCB8 /* PickerPopupDialog.swift */,
-				B4D2F5939FA0AF335FE5FDE2A43FFD51 /* Pod */,
-				5A6B24ABB676C2F4228A2BC8EC50427F /* Support Files */,
-			);
-			name = PickerPopupDialog;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				09B9CBEA7EB8FAE1905E1EC753EB17F8 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3024F341A48F3A8FAA177BE286239620 /* Products */,
-				9D5A3D0D338EE2EB790D6179B55F53D4 /* Targets Support Files */,
+				E59F84880F24D77896A020C6FB1454F2 /* Pods */,
+				AE5B5D1DAF7AD74FDE0C4807EE126687 /* Products */,
+				D2FFDCF59AD44E0DDC22D400E057F790 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9D5A3D0D338EE2EB790D6179B55F53D4 /* Targets Support Files */ = {
+		A38F3361507A7B1990AF26D2949B4BE7 /* PickerPopupDialog */ = {
 			isa = PBXGroup;
 			children = (
-				352F1F18EF3E0F83EEEAD705B5F11312 /* Pods-PickerPopupDialog_Example */,
-				B98C453DCAE681703469F3166B15EF6A /* Pods-PickerPopupDialog_Tests */,
+				94FA9D7342364482D62AFF28E1DFDBE1 /* PickerPopupDialog.swift */,
+				A82AE0BDA7DCD10D9C0A88C9AAF9B39D /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = PickerPopupDialog;
+			path = PickerPopupDialog;
 			sourceTree = "<group>";
 		};
-		B4D2F5939FA0AF335FE5FDE2A43FFD51 /* Pod */ = {
+		A82AE0BDA7DCD10D9C0A88C9AAF9B39D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C37AB17825073596738A9A16A2A7D12F /* LICENSE */,
-				2A48B478EA33AE7E06ED7DA00CE7C891 /* PickerPopupDialog.podspec */,
-				249937AD7693438D762DB9D970F7B3E8 /* README.md */,
+				A91C662DF63E1FD03B771108DBF1B99D /* Info.plist */,
+				4C4F250C54CF33D9257E69778613EB8B /* PickerPopupDialog.modulemap */,
+				E8B472ECA1E3FC732D84E0AB3BF75ADF /* PickerPopupDialog.xcconfig */,
+				E3F905EC39B8B2B1073B154C48E04E46 /* PickerPopupDialog-dummy.m */,
+				134F593242E4792D0CD101A042D9A940 /* PickerPopupDialog-prefix.pch */,
+				1E55D3C0B35218E672DC635E27E54E6F /* PickerPopupDialog-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/PickerPopupDialog";
 			sourceTree = "<group>";
 		};
-		B98C453DCAE681703469F3166B15EF6A /* Pods-PickerPopupDialog_Tests */ = {
+		AE5B5D1DAF7AD74FDE0C4807EE126687 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE8286B706DE24095E3F6EED295CDD05 /* Info.plist */,
-				8E01E773B0DAC6E94607D392CCBE9E44 /* Pods-PickerPopupDialog_Tests.modulemap */,
-				AED9C3D4DC37C484846ABA6206851D80 /* Pods-PickerPopupDialog_Tests-acknowledgements.markdown */,
-				178D0FAB89D204B391EE785DCEE480E8 /* Pods-PickerPopupDialog_Tests-acknowledgements.plist */,
-				4CDF49EFBDC4E09EA1AA96B7B3EAE218 /* Pods-PickerPopupDialog_Tests-dummy.m */,
-				7E2088AE32FACF6E984C2C38CFC35021 /* Pods-PickerPopupDialog_Tests-frameworks.sh */,
-				DA4C49A8264564567EF74CBB5424917B /* Pods-PickerPopupDialog_Tests-resources.sh */,
-				34893C1141233265612D8D173E71D00D /* Pods-PickerPopupDialog_Tests-umbrella.h */,
-				CF66D5F60C28F4ACCCD6FA72A5CEC0E6 /* Pods-PickerPopupDialog_Tests.debug.xcconfig */,
-				57C1F159452CF66D538DFD524E002DA4 /* Pods-PickerPopupDialog_Tests.release.xcconfig */,
+				770902F0C9305EC3A39C4B510A7E1606 /* PickerPopupDialog.framework */,
+				1A0D375D5FDAEF554FDE5351718F67AE /* Pods_PickerPopupDialog_Example.framework */,
 			);
-			name = "Pods-PickerPopupDialog_Tests";
-			path = "Target Support Files/Pods-PickerPopupDialog_Tests";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -205,24 +122,51 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D2FFDCF59AD44E0DDC22D400E057F790 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6F9900F1032AA929E54E374844DB0BB /* Pods-PickerPopupDialog_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E59F84880F24D77896A020C6FB1454F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A38F3361507A7B1990AF26D2949B4BE7 /* PickerPopupDialog */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6F9900F1032AA929E54E374844DB0BB /* Pods-PickerPopupDialog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E06E16ED9D245609DACECCC002AE5977 /* Info.plist */,
+				BB26D592B23B8B83A0B57FFE0104AFFD /* Pods-PickerPopupDialog_Example.modulemap */,
+				0F1B45C194AD53A381D62234BA88998F /* Pods-PickerPopupDialog_Example-acknowledgements.markdown */,
+				28B1FBE446157FE53894ABEE6B51DB00 /* Pods-PickerPopupDialog_Example-acknowledgements.plist */,
+				C1288C4FD3CC20FD7580330186A26223 /* Pods-PickerPopupDialog_Example-dummy.m */,
+				48FD41E7E97FC437E11DD83AB291D43F /* Pods-PickerPopupDialog_Example-frameworks.sh */,
+				EADC20BDFF532C4DC1EF792403D269C7 /* Pods-PickerPopupDialog_Example-resources.sh */,
+				8FF6BEE12C1FE4E0CC20ACE33FA8A0CB /* Pods-PickerPopupDialog_Example-umbrella.h */,
+				4E066DAE931689FB20BACC8EB2199BF4 /* Pods-PickerPopupDialog_Example.debug.xcconfig */,
+				BFC246149D5E5793B3FB20C84103CA09 /* Pods-PickerPopupDialog_Example.release.xcconfig */,
+			);
+			name = "Pods-PickerPopupDialog_Example";
+			path = "Target Support Files/Pods-PickerPopupDialog_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		172AA5FB33614235D57EBA5C1CCF013D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BBA2F2AECBAC4E2F5DE2F8179AE2975 /* Pods-PickerPopupDialog_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		70D84E37BC57F01EB54FC0DCBAA95797 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,23 +186,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		32A0654EB1BCF6268A2F9342331E6702 /* Pods-PickerPopupDialog_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 85DA5F4350062213192360BFD3E1A13C /* Build configuration list for PBXNativeTarget "Pods-PickerPopupDialog_Tests" */;
-			buildPhases = (
-				9825079CBCA87862AB74DF9A98D9D826 /* Sources */,
-				FEE066D8F34E102B8DB33642F10C513E /* Frameworks */,
-				172AA5FB33614235D57EBA5C1CCF013D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PickerPopupDialog_Tests";
-			productName = "Pods-PickerPopupDialog_Tests";
-			productReference = 0DF1187BDEB864ECF019A67A88EE47C9 /* Pods_PickerPopupDialog_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		61AB6341F1357EEA522F2E40F0541508 /* Pods-PickerPopupDialog_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F1F7F1CAF7D1A8D03A5D5593D5B1BAF /* Build configuration list for PBXNativeTarget "Pods-PickerPopupDialog_Example" */;
@@ -274,7 +201,7 @@
 			);
 			name = "Pods-PickerPopupDialog_Example";
 			productName = "Pods-PickerPopupDialog_Example";
-			productReference = FBE589E740ED9E15D6C315C32889FB56 /* Pods_PickerPopupDialog_Example.framework */;
+			productReference = 1A0D375D5FDAEF554FDE5351718F67AE /* Pods_PickerPopupDialog_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8D30B4292EA8BD43AA7BC18252A7B0D5 /* PickerPopupDialog */ = {
@@ -291,7 +218,7 @@
 			);
 			name = PickerPopupDialog;
 			productName = PickerPopupDialog;
-			productReference = EB3B298EF018F4EAEFBA9D161621E324 /* PickerPopupDialog.framework */;
+			productReference = 770902F0C9305EC3A39C4B510A7E1606 /* PickerPopupDialog.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -311,13 +238,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3024F341A48F3A8FAA177BE286239620 /* Products */;
+			productRefGroup = AE5B5D1DAF7AD74FDE0C4807EE126687 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8D30B4292EA8BD43AA7BC18252A7B0D5 /* PickerPopupDialog */,
 				61AB6341F1357EEA522F2E40F0541508 /* Pods-PickerPopupDialog_Example */,
-				32A0654EB1BCF6268A2F9342331E6702 /* Pods-PickerPopupDialog_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,14 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D6348E5B0442E7D5B02852434B4C201 /* Pods-PickerPopupDialog_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9825079CBCA87862AB74DF9A98D9D826 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E691E4FF2322917E94269A7875733F56 /* Pods-PickerPopupDialog_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +280,7 @@
 /* Begin XCBuildConfiguration section */
 		1803F7929932DE95D42CB78C493C2FBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90A247147EC0DAB1276A4DDBF1EFB7BC /* Pods-PickerPopupDialog_Example.release.xcconfig */;
+			baseConfigurationReference = BFC246149D5E5793B3FB20C84103CA09 /* Pods-PickerPopupDialog_Example.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -455,7 +373,7 @@
 		};
 		4C604339EF8FABA15A023FF63C46BAB8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F45F43095B05C5E101A4811A6026054 /* PickerPopupDialog.xcconfig */;
+			baseConfigurationReference = E8B472ECA1E3FC732D84E0AB3BF75ADF /* PickerPopupDialog.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -486,76 +404,9 @@
 			};
 			name = Release;
 		};
-		69B736314DE5E119BB50DCB700CA909B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF66D5F60C28F4ACCCD6FA72A5CEC0E6 /* Pods-PickerPopupDialog_Tests.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PickerPopupDialog_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PickerPopupDialog_Tests/Pods-PickerPopupDialog_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PickerPopupDialog_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		99947FD00BEA9FB739B3E4E45A6C8E7C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57C1F159452CF66D538DFD524E002DA4 /* Pods-PickerPopupDialog_Tests.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PickerPopupDialog_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PickerPopupDialog_Tests/Pods-PickerPopupDialog_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PickerPopupDialog_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		A38C59FE50688671CF87B328914672E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F45F43095B05C5E101A4811A6026054 /* PickerPopupDialog.xcconfig */;
+			baseConfigurationReference = E8B472ECA1E3FC732D84E0AB3BF75ADF /* PickerPopupDialog.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -587,7 +438,7 @@
 		};
 		DC6E97E8D77F17054342762F52B70E2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8208284DDEE28E5A546288B7130FF4D6 /* Pods-PickerPopupDialog_Example.debug.xcconfig */;
+			baseConfigurationReference = 4E066DAE931689FB20BACC8EB2199BF4 /* Pods-PickerPopupDialog_Example.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -700,15 +551,6 @@
 			buildConfigurations = (
 				DD369323FD85CB26347C0D75C75D837F /* Debug */,
 				49B5A78DBE571998053070754D3695E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		85DA5F4350062213192360BFD3E1A13C /* Build configuration list for PBXNativeTarget "Pods-PickerPopupDialog_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				69B736314DE5E119BB50DCB700CA909B /* Debug */,
-				99947FD00BEA9FB739B3E4E45A6C8E7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8D9C5DBCC95A0FC56E9E1CBC /* Pods_PickerPopupDialog_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB03832D92C69FA32CD54B6E /* Pods_PickerPopupDialog_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +43,6 @@
 /* Begin PBXFileReference section */
 		31FED6D38F542788437C4A7E /* PickerPopupDialog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PickerPopupDialog.podspec; path = ../PickerPopupDialog.podspec; sourceTree = "<group>"; };
 		3530A7CF204590C400FAF5D0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3AA1DECE5ED76E1F8C2867A4 /* Pods-PickerPopupDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerPopupDialog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickerPopupDialog_Tests/Pods-PickerPopupDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PickerPopupDialog_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerPopupDialog_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8E2EBDC4AB0747844FB12C85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A570289CCF3DDC82F3CDC6AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		ABDEA135E30742C1547A8B1B /* Pods-PickerPopupDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerPopupDialog_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickerPopupDialog_Tests/Pods-PickerPopupDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB03832D92C69FA32CD54B6E /* Pods_PickerPopupDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerPopupDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43C0A084A3CCBB49D917877 /* Pods-PickerPopupDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerPopupDialog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickerPopupDialog_Example/Pods-PickerPopupDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FB633C2F88DF9B48BABA97EE /* Pods-PickerPopupDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerPopupDialog_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickerPopupDialog_Example/Pods-PickerPopupDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9C5DBCC95A0FC56E9E1CBC /* Pods_PickerPopupDialog_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +153,7 @@
 		726A5DA9C5C51FFE3EFDFD66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB03832D92C69FA32CD54B6E /* Pods_PickerPopupDialog_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,8 +163,6 @@
 			children = (
 				E43C0A084A3CCBB49D917877 /* Pods-PickerPopupDialog_Example.debug.xcconfig */,
 				FB633C2F88DF9B48BABA97EE /* Pods-PickerPopupDialog_Example.release.xcconfig */,
-				3AA1DECE5ED76E1F8C2867A4 /* Pods-PickerPopupDialog_Tests.debug.xcconfig */,
-				ABDEA135E30742C1547A8B1B /* Pods-PickerPopupDialog_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -195,12 +195,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "PickerPopupDialog_Tests" */;
 			buildPhases = (
-				D6B53060AA0179CEF080CBF3 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				6DC55CF742DB62DCC02517C3 /* [CP] Embed Pods Frameworks */,
-				8DAA1C978F383EC6C8191DA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,36 +271,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6DC55CF742DB62DCC02517C3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickerPopupDialog_Tests/Pods-PickerPopupDialog_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8DAA1C978F383EC6C8191DA1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickerPopupDialog_Tests/Pods-PickerPopupDialog_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A786F9F95ABEF2D828595AEE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,24 +302,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickerPopupDialog_Example/Pods-PickerPopupDialog_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D6B53060AA0179CEF080CBF3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PickerPopupDialog_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E76E91BEF921A4DB0A48F1C0 /* [CP] Embed Pods Frameworks */ = {
@@ -556,7 +505,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AA1DECE5ED76E1F8C2867A4 /* Pods-PickerPopupDialog_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -577,7 +525,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABDEA135E30742C1547A8B1B /* Pods-PickerPopupDialog_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

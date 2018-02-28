@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     /*typealias arrayAny = (Any, String)*/
 
-    let pickerView = PickerPopupDialog.init()
+    let pickerView = PickerPopupDialog()
     let arrayDataSource : [(Any, String)] = [(1, "First item"),(2, "Second item")]
     
     @IBOutlet weak var textLabel: UILabel!

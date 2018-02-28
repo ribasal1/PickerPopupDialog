@@ -43,30 +43,19 @@ class PickerPopupDialog: UIView {
     fileprivate var pickerValues: [anyStringType]!
     fileprivate var selectedValue: anyStringType?
     
-    /// Initializes and returns a newly allocated `PickerPopupDialog` object with a zero-sized frame rectangle.
-    convenience public init() {
-        self.init(frame: CGRect.zero)
-    }
-    
-    required public init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        initView()
-    }
-    
-    /**
-     Initializes and returns a newly allocated `PickerPopupDialog` object with the specified frame rectangle.
-     - parameter frame: The frame rectangle for the view, measured in points. The origin of the frame is relative to
-     the superview in which you plan to add it.
-     */
+    /// Initializes a TouchDrawView instance
     override public init(frame: CGRect) {
         super.init(frame: frame)
         initView()
     }
     
-    /**
-     Encapsulates the functionality common to all `init` methods of `PickerPopupDialog`
-     */
-    private func initView() {
+    /// Initializes a TouchDrawView instance
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        initView()
+    }
+        
+    fileprivate func initView() {
         self.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
         self.layer.shouldRasterize = true
         self.layer.rasterizationScale = UIScreen.main.scale

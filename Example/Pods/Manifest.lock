@@ -1,11 +1,11 @@
 PODS:
-  - PickerPopupDialog (0.1.0)
+  - PickerPopupDialog (0.1.1)
 
 DEPENDENCIES:
   - PickerPopupDialog
 
 SPEC CHECKSUMS:
-  PickerPopupDialog: 79ac7b5cc58adfefbd5886439beb5e5ac81ba47a
+  PickerPopupDialog: e90681656d564df683557ca2d02e4909798bc8e9
 
 PODFILE CHECKSUM: 59f304eb881d9c7a72f5c5b549b49720ec878ab2
 

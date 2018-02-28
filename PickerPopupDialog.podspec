@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PickerPopupDialog'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2s'
   s.summary          = 'Display a Picker inside a Popup Dialog. It also gives you the ability to separate displayed text from values'
 
 # This description is used to generate tags and improve search results.

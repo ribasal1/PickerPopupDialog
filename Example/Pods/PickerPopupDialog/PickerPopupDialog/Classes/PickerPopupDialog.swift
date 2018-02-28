@@ -8,10 +8,11 @@
 
 import UIKit
 
-class PickerPopupDialog: UIView {
+public class PickerPopupDialog: UIView,UIPickerViewDataSource,
+UIPickerViewDelegate {
     /* defaults  */
-    typealias anyStringType = (Any, String)
-    typealias PickerPopupCompletion = (_ result: anyStringType) -> Void
+    public typealias anyStringType = (Any, String)
+    public typealias PickerPopupCompletion = (_ result: anyStringType) -> Void
     
     fileprivate let titleHeight: CGFloat = 30
     fileprivate let buttonHeight: CGFloat = 50
@@ -43,14 +44,13 @@ class PickerPopupDialog: UIView {
     fileprivate var pickerValues: [anyStringType]!
     fileprivate var selectedValue: anyStringType?
     
-    /// Initializes a TouchDrawView instance
-    override public init(frame: CGRect) {
+    // MARK: - Init
+    override init(frame: CGRect){
         super.init(frame: frame)
         initView()
     }
     
-    /// Initializes a TouchDrawView instance
-    public required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initView()
     }
@@ -92,7 +92,8 @@ class PickerPopupDialog: UIView {
         
         // PickerView
         pickerView = UIPickerView.init(frame: CGRect(x: 0, y: titleHeight, width: dialogSize.width, height: dialogSize.height - buttonHeight - 10))
-        pickerView.delegate = self
+        self.pickerView.dataSource = self;
+        self.pickerView.delegate = self;
         
         dialogContainer.addSubview(pickerView)
         
@@ -130,7 +131,7 @@ class PickerPopupDialog: UIView {
     }
     
     // MARK: public func
-    func setDataSource(_ source: [anyStringType]) {
+    public func setDataSource(_ source: [anyStringType]) {
         
         self.pickerValues = source
         
@@ -144,7 +145,7 @@ class PickerPopupDialog: UIView {
         self.pickerView.selectRow(row, inComponent: 0, animated: true)
     }
     
-    func showDialog(_ title: String, doneButtonTitle: String = "OK", cancelButtonTitle: String = "Cancel", callback: @escaping PickerPopupCompletion) {
+    public func showDialog(_ title: String, doneButtonTitle: String = "OK", cancelButtonTitle: String = "Cancel", callback: @escaping PickerPopupCompletion) {
         
         self.titleLabel.text = title
         self.doneButton.setTitle(doneButtonTitle, for: UIControlState())
@@ -199,31 +200,25 @@ class PickerPopupDialog: UIView {
         close()
     }
     
-}
-
-
-
-extension PickerPopupDialog: UIPickerViewDataSource, UIPickerViewDelegate {
     // MARK: - Picker Delegates
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+    public func numberOfComponents(in pickerView: UIPickerView) -> Int {
         
         return pickerValues.count == 0 ? 0 : 1
     }
     
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+    public func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
         selectedValue = self.pickerValues[row]
     }
     
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+    public func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return self.pickerValues.count
     }
     
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+    public func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         
         return self.pickerValues[row].1
     }
     
 }
-
 

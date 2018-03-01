@@ -77,6 +77,7 @@ import PickerPopupDialog
 
 Set the data source, in viewDidLoad for example. It must be of type [(Any, String)]
 ```ruby
+let pickerView = PickerPopupDialog()
 let myDataSource : [(Any, String)] = [(1, "First item"),(2, "Second item")]
 pickerView.setDataSource(myDataSource)
 ```

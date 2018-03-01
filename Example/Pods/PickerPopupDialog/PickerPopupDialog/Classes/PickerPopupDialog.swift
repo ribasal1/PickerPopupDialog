@@ -8,8 +8,7 @@
 
 import UIKit
 
-public class PickerPopupDialog: UIView,UIPickerViewDataSource,
-UIPickerViewDelegate {
+public class PickerPopupDialog: UIView,UIPickerViewDataSource, UIPickerViewDelegate {
     /* defaults  */
     public typealias anyStringType = (Any, String)
     public typealias PickerPopupCompletion = (_ result: anyStringType) -> Void

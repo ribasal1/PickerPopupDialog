@@ -93,10 +93,6 @@ pickerView.showDialog("My Title", doneButtonTitle: "Ok", cancelButtonTitle: "can
 }
 ```
 
-
-
-
-
 ## Author
 
 Alberto Ribas, github@linkmedia.ch
